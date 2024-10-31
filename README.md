@@ -117,10 +117,7 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 ## 6. Conclusion
 
-- Summarize the key findings from both regression analyses, highlighting the main outcomes
-- Discuss the overall effectiveness of linear and logistic regression for the dataset and problem context.
-- Suggest potential next steps or improvements for future analyses such as deeper data exploration
-- Assess the interpretability of both models for stakeholders, ensuring that the results can be easily understood and applied in decision-making processes.
+In conclusion, the objectives outlined guided a structured approach to building a classification model. By first encoding categorical variables and balancing classes, we ensured that the data was in a suitable format for training and evaluation. Using Scikit-learn, we implemented and fine-tuned a model that could effectively classify the data, and calculated its accuracy to gauge initial performance. Visualizing confusion matrices provided insights into classification accuracy for each class, highlighting any areas where the model struggled. Finally, interpreting the model's classifications and feature importance allowed us to understand which features were most impactful, supporting both the model’s validity and its potential areas for improvement. This end-to-end approach optimized model performance and interpretability.
 
 ---
 
