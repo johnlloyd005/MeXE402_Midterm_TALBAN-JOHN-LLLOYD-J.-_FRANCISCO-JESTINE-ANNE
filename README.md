@@ -95,17 +95,24 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 ![image](https://github.com/user-attachments/assets/ac412c60-538d-4e34-9287-c6c244ace536)
     
-  - Generated predictions on the test set using the trained model. 
-
+  - Generated predictions on the test set using the trained model.
+  
+- **Visualization and Performance Evaluation:**
+  - Visualized the true and predicted class labels for two primary features to compare accuracy.
+ 
 ![image](https://github.com/user-attachments/assets/29b0b7d5-37fe-4220-b42e-f734ac053d96)
 **X-axis (Feature 1):** This is the first feature (or dimension) from the dataset X_test. It’s one of the five features generated in the synthetic data but is plotted independently to provide a visual representation of how the two classes are distributed based on just this feature.
 
 **Y-axis (Feature 2):** This is the second feature from X_test. Like Feature 1, it’s plotted to show its influence on the binary classification outcome when combined with Feature 1.
-  
-- **Visualization and Performance Evaluation:**
-  - Visualized the true and predicted class labels for two primary features to compare accuracy.
+
   - Created a confusion matrix heatmap to represent the classification performance visually.
+
+![image](https://github.com/user-attachments/assets/e4809f88-b38f-465f-a4f2-0da1c3d097db)
+
   - Calculated model accuracy based on correct predictions.
+
+![image](https://github.com/user-attachments/assets/987602a7-a73e-42e7-bcfb-2687994aa4e7)
+
 ---
 
 ## 6. Conclusion
