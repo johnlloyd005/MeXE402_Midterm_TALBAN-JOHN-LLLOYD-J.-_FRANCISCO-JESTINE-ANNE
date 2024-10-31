@@ -186,3 +186,5 @@ ResearchGate
 
 - https://www.kaggle.com/code/alexisbcook/titanic-tutorial
 - https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-forests
+- https://www.kaggle.com/datasets/ahmedaliraja/customer-satisfaction-10k
+- https://huggingface.co/blog/supercharge-customer-service-with-machine-learning
