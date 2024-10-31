@@ -80,6 +80,45 @@ Logistic regression is often used for classification tasks such as spam detectio
 ## 5. Results and Discussion
 
 - **Data Preprocessing and Feature Engineering:**
+- Coverted the "Accuracy" column to numerical values ( 1 for Yes and 0 for No)
+
+  ![image](https://github.com/user-attachments/assets/15656d1f-e04c-4939-bb7d-9af802e2754a)
+
+- To address gaps in the dataset, missing values in key columns were filled with zeros.
+
+  ![image](https://github.com/user-attachments/assets/62105ea8-518c-4263-b3e7-369cbfcd88d9)
+
+- **Modeling and Training:**
+- Used Logistic Regression as the primary model for binary classification, with data split into training and testing sets.
+
+  ![image](https://github.com/user-attachments/assets/08ba742b-ec61-4467-b576-3d2b0d2eeec8)
+  ![image](https://github.com/user-attachments/assets/121e0cd6-7d13-40ea-a830-441c1f9a5bf6)
+  ![image](https://github.com/user-attachments/assets/4ad133a2-b475-4cf6-914a-6adc78f21b4b)
+  
+- Standardized feature values using StandardScaler to enhance model performance.
+
+  ![image](https://github.com/user-attachments/assets/2593647a-3dfe-4dc5-a268-7a53051840b9)
+  
+- Generated predictions on the test set using the trained model.
+
+   ![image](https://github.com/user-attachments/assets/8f32c874-de04-435f-9182-74286b0c02bd)
+
+- Created a confusion matrix heatmap to represent the classification performance visually.
+
+  ![image](https://github.com/user-attachments/assets/6ff615bd-f7c8-409e-a868-3a7f0afd9f24)
+
+- Calculated model accuracy based on correct predictions.
+![image](https://github.com/user-attachments/assets/3e150c5c-1fb8-42cd-b263-fd6c279b8cc0)
+
+
+
+
+   
+
+
+
+
+- **Data Preprocessing and Feature Engineering:**
   - Converted the 'Sex' column to numerical values (1 for male and 0 for female).
   
   ![image](https://github.com/user-attachments/assets/94e50554-b1b6-4ed5-b697-881e24534992)
@@ -131,6 +170,7 @@ Logistic regression is often used for classification tasks such as spam detectio
 ![image](https://github.com/user-attachments/assets/987602a7-a73e-42e7-bcfb-2687994aa4e7)
 
 ---
+
 
 ## 6. Conclusion
 
