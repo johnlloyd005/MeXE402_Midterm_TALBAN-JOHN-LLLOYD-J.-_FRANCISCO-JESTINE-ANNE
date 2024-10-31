@@ -41,7 +41,7 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 ## 3. Project Objectives
 
-### Editable Outline:
+### Logistics Regression:
 - **Objective 1:** Data Preprocessing: Encode categorical variables, balance classes if needed.
 - **Objective 2:** Model Implementation: Use appropriate libraries (e.g., Scikit-learn in Python).
 - **Objective 3:** Evaluation Metrics: Calculate Accuracy
