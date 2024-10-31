@@ -62,10 +62,20 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 ## 5. Results and Discussion
 
-- **Linear Regression Results:** Provide an overview of the model performance, the importance of different features, and any insights gained from the regression analysis.
-- **Logistic Regression Results:** Discuss the accuracy and reliability of the logistic model, as well as potential improvements or adjustments.
-- **Comparison of Models:** Summarize the differences between the models and how they perform for the respective tasks.
-
+- **Data Preprocessing and Feature Engineering:**
+  - Converted the 'Sex' column to numerical values (1 for male and 0 for female).
+  - Filled missing values in columns, particularly 'Age,' using median values, and swapped values between 'Pclass' and 'Age' for processing.
+  - Calculated correlations between independent variables and the target variable 'Survived,' displaying the correlation values in a bar chart. 
+- **Gender-based Survival Rate::**
+  -  Calculated and printed the survival rates separately for female and male passengers.
+- **Modeling and Training:**
+  - Used Logistic Regression as the primary model for binary classification, with data split into training and testing sets.
+  - Standardized feature values using StandardScaler to enhance model performance.
+  - Generated predictions on the test set using the trained model.
+- **Visualization and Performance Evaluation:**
+  - Visualized the true and predicted class labels for two primary features to compare accuracy.
+  - Created a confusion matrix heatmap to represent the classification performance visually.
+  - Calculated model accuracy based on correct predictions.
 ---
 
 ## 6. Conclusion
