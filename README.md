@@ -64,10 +64,15 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 - **Data Preprocessing and Feature Engineering:**
   - Converted the 'Sex' column to numerical values (1 for male and 0 for female).
+  ![image](https://github.com/user-attachments/assets/94e50554-b1b6-4ed5-b697-881e24534992)
   - Filled missing values in columns, particularly 'Age,' using median values, and swapped values between 'Pclass' and 'Age' for processing.
-  - Calculated correlations between independent variables and the target variable 'Survived,' displaying the correlation values in a bar chart. 
+  ![image](https://github.com/user-attachments/assets/8c69357d-8cf0-4857-8c14-86763c478e18)
+  - Calculated correlations between independent variables and the target variable 'Survived,' displaying the correlation values in a bar chart.
+  ![image](https://github.com/user-attachments/assets/f5ed25a6-22e4-4a6f-b1eb-beb50c85fb39)
+    
 - **Gender-based Survival Rate::**
   -  Calculated and printed the survival rates separately for female and male passengers.
+  ![image](https://github.com/user-attachments/assets/4f306006-4249-4de9-abd3-1271e5b999a9)
 - **Modeling and Training:**
   - Used Logistic Regression as the primary model for binary classification, with data split into training and testing sets.
   - Standardized feature values using StandardScaler to enhance model performance.
