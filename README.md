@@ -52,12 +52,6 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 ## 4. Methodology
 
-### Linear Regression Steps:
-- Split the dataset into training and testing sets.
-- Train the model using the training set.
-- Evaluate model performance using the testing set.
-- Interpret the coefficients of the linear model.
-
 ### Logistic Regression Steps:
 - Preprocess data for logistic regression.
 - Train the logistic model and predict outcomes.
