@@ -28,7 +28,7 @@ Logistic regression is often used for classification tasks such as spam detectio
   - parch -	No. of parents / children aboard the Titanic	
 - **Target Variable:** (dependent variable)
   - survival - Survival	0 = No, 1 = Yes
-- **Preprocessing Steps:** (data cleaning
+- **Preprocessing Steps:** (data cleaning)
   - As I delved into my dataset, I noticed that many cells in the "age" column were missing values. To ensure that my analysis could proceed smoothly, I decided to fill these missing entries with zeros. Using 
     Python, I wrote a script that specifically targeted the "age" column. I began by loading my dataset into a Pandas DataFrame. After identifying the missing values, I used the fillna() method to replace them 
     with 0. This not only helped maintain the structure of my data but also made it easier to perform calculations and analyses later on.
