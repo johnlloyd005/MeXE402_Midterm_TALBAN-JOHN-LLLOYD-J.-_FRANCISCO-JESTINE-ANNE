@@ -42,10 +42,11 @@ Logistic regression is often used for classification tasks such as spam detectio
 ## 3. Project Objectives
 
 ### Editable Outline:
-- **Objective 1:** Perform a linear regression analysis to model [dependent variable] based on [independent variables].
-- **Objective 2:** Apply logistic regression to classify [target variable] using [features].
-- **Objective 3:** Evaluate model performance using metrics such as [R-squared, RMSE for linear regression] and [accuracy, precision, recall, F1-score for logistic regression].
-- **Objective 4:** Compare the results of both models and discuss their effectiveness in predicting the respective outcomes.
+- **Objective 1:** Data Preprocessing: Encode categorical variables, balance classes if needed.
+- **Objective 2:** Model Implementation: Use appropriate libraries (e.g., Scikit-learn in Python).
+- **Objective 3:** Evaluation Metrics: Calculate Accuracy
+- **Objective 4:** Visualization: Plot confusion matrices
+- **Objective 5:** Interpretation: Discuss the model's ability to classify and the importance of features.
 
 ---
 
