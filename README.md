@@ -74,14 +74,33 @@ Logistic regression is often used for classification tasks such as spam detectio
   - Calculated correlations between independent variables and the target variable 'Survived,' displaying the correlation values in a bar chart.
     
   ![image](https://github.com/user-attachments/assets/f5ed25a6-22e4-4a6f-b1eb-beb50c85fb39)
+
+  ![image](https://github.com/user-attachments/assets/bdfca8ef-c079-42ac-a768-a112ae50b3cf)
     
 - **Gender-based Survival Rate::**
   -  Calculated and printed the survival rates separately for female and male passengers.
+    
   ![image](https://github.com/user-attachments/assets/4f306006-4249-4de9-abd3-1271e5b999a9)
+  
 - **Modeling and Training:**
   - Used Logistic Regression as the primary model for binary classification, with data split into training and testing sets.
+
+![image](https://github.com/user-attachments/assets/c22723a3-890a-4969-8429-3c8ebdb64e69)
+
+![image](https://github.com/user-attachments/assets/ff10906c-002a-4b91-bb35-8fb358c26a55)
+
+![image](https://github.com/user-attachments/assets/52f9c44a-c5d2-4463-a3e3-b3e5ceedb2f4)
+  
   - Standardized feature values using StandardScaler to enhance model performance.
-  - Generated predictions on the test set using the trained model.
+
+![image](https://github.com/user-attachments/assets/ac412c60-538d-4e34-9287-c6c244ace536)
+    
+  - Generated predictions on the test set using the trained model. 
+
+![image](https://github.com/user-attachments/assets/29b0b7d5-37fe-4220-b42e-f734ac053d96)
+**X-axis (Feature 1):** This is the first feature (or dimension) from the dataset X_test. It’s one of the five features generated in the synthetic data but is plotted independently to provide a visual representation of how the two classes are distributed based on just this feature.
+**Y-axis (Feature 2):** This is the second feature from X_test. Like Feature 1, it’s plotted to show its influence on the binary classification outcome when combined with Feature 1.
+  
 - **Visualization and Performance Evaluation:**
   - Visualized the true and predicted class labels for two primary features to compare accuracy.
   - Created a confusion matrix heatmap to represent the classification performance visually.
