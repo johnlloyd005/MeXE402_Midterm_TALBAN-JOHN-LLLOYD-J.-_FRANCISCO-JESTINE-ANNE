@@ -16,7 +16,21 @@ Logistic regression is often used for classification tasks such as spam detectio
 ---
 
 ## 2. Dataset Description
-
+### Customer Satisfaction 
+- **Dataset Source:**
+- https://www.kaggle.com/datasets/ahmedaliraja/customer-satisfaction-10k
+- **Features:** (independent variables)
+- Customer - Customer ID
+- Delivery Experience
+- Food Quality
+- Time
+- Correct Order - Yes = 1, No = 0
+-  **Target Variable:** (dependent variable)
+-  Accuracy - Yes = 1, No = 0
+-  **Preprocessing Steps:** (data cleaning)
+-  To start, I examined my dataset and found that several rows had missing values. To keep the analysis consistent and manageable, I opted to replace these missing values with zeros. Using Python, I loaded the dataset into a Pandas DataFrame and identified the gaps. Then, I applied the fillna() function to substitute the missing values with 0. This approach allowed me to maintain the dataset’s structure while also preparing it for further analysis and calculations.
+-  To improve data usability, I modified the "Accuracy" column in my dataset by converting the text values into numerical ones. Specifically, I set Yes = 1 and No = 0. This adjustment not only standardizes the data but also makes it more compatible with machine learning algorithms, which generally perform better with numerical inputs. By replacing text with numbers, I minimized potential processing issues and ensured the data is more efficient for both analysis and model training.
+     
 ### Titanic - Machine Learning from Disaster:
 - **Dataset Source:**
   -  https://www.kaggle.com/c/titanic/data
@@ -34,6 +48,7 @@ Logistic regression is often used for classification tasks such as spam detectio
     with 0. This not only helped maintain the structure of my data but also made it easier to perform calculations and analyses later on.
   - I converted the "Sex" column in my dataset so that it uses numerical values instead of text. I assigned male = 1 and female = 0. This makes the data more efficient to work with, especially for machine learning 
     models, which perform better with numerical data.
+
 
   ![image](https://github.com/user-attachments/assets/6dd7b92c-5e03-492c-940a-ffe93660de33)
 
