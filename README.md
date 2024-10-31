@@ -30,7 +30,9 @@ Logistic regression is often used for classification tasks such as spam detectio
 -  **Preprocessing Steps:** (data cleaning)
 -  To start, I examined my dataset and found that several rows had missing values. To keep the analysis consistent and manageable, I opted to replace these missing values with zeros. Using Python, I loaded the dataset into a Pandas DataFrame and identified the gaps. Then, I applied the fillna() function to substitute the missing values with 0. This approach allowed me to maintain the dataset’s structure while also preparing it for further analysis and calculations.
 -  To improve data usability, I modified the "Accuracy" column in my dataset by converting the text values into numerical ones. Specifically, I set Yes = 1 and No = 0. This adjustment not only standardizes the data but also makes it more compatible with machine learning algorithms, which generally perform better with numerical inputs. By replacing text with numbers, I minimized potential processing issues and ensured the data is more efficient for both analysis and model training.
-     
+
+     ![image](https://github.com/user-attachments/assets/45904653-415c-406f-b6b2-a429e870dd2f)
+
 ### Titanic - Machine Learning from Disaster:
 - **Dataset Source:**
   -  https://www.kaggle.com/c/titanic/data
