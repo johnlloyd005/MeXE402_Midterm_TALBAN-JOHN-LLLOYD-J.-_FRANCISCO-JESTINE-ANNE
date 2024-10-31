@@ -99,6 +99,7 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 ![image](https://github.com/user-attachments/assets/29b0b7d5-37fe-4220-b42e-f734ac053d96)
 **X-axis (Feature 1):** This is the first feature (or dimension) from the dataset X_test. It’s one of the five features generated in the synthetic data but is plotted independently to provide a visual representation of how the two classes are distributed based on just this feature.
+
 **Y-axis (Feature 2):** This is the second feature from X_test. Like Feature 1, it’s plotted to show its influence on the binary classification outcome when combined with Feature 1.
   
 - **Visualization and Performance Evaluation:**
