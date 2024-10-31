@@ -17,14 +17,25 @@ Logistic regression is often used for classification tasks such as spam detectio
 
 ## 2. Dataset Description
 
-### Editable Outline:
-- **Dataset Source:** [Include the source of the dataset if publicly available, or describe how it was collected.]
-- **Features:**
-  - List the features (independent variables) and their types (e.g., numerical, categorical).
-- **Target Variable:**
-  - Describe the target variable (dependent variable) and what it represents.
-- **Preprocessing Steps:**
-  - Outline any data cleaning or preprocessing steps such as handling missing values, encoding categorical variables, or feature scaling.
+### Titanic - Machine Learning from Disaster:
+- **Dataset Source:**
+  -  https://www.kaggle.com/c/titanic/data
+- **Features:** (independent variables)
+  - pclass - Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd
+  - Sex Male = 1 Female = 0
+  - Age -	Age in years
+  - sibsp -	No. of siblings / spouses aboard the Titanic
+  - parch -	No. of parents / children aboard the Titanic	
+- **Target Variable:** (dependent variable)
+  - survival - Survival	0 = No, 1 = Yes
+- **Preprocessing Steps:** (data cleaning
+  - As I delved into my dataset, I noticed that many cells in the "age" column were missing values. To ensure that my analysis could proceed smoothly, I decided to fill these missing entries with zeros. Using 
+    Python, I wrote a script that specifically targeted the "age" column. I began by loading my dataset into a Pandas DataFrame. After identifying the missing values, I used the fillna() method to replace them 
+    with 0. This not only helped maintain the structure of my data but also made it easier to perform calculations and analyses later on.
+  - I converted the "Sex" column in my dataset so that it uses numerical values instead of text. I assigned male = 1 and female = 0. This makes the data more efficient to work with, especially for machine learning 
+    models, which perform better with numerical data.
+
+  ![image](https://github.com/user-attachments/assets/6dd7b92c-5e03-492c-940a-ffe93660de33)
 
 ---
 
