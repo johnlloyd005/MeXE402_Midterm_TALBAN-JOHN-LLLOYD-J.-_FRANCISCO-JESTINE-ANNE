@@ -77,4 +77,5 @@ Scikit-learn User Guide
 ResearchGate
 
 
-- List any academic papers, books, or online resources that were consulted during the project.
+- https://www.kaggle.com/code/alexisbcook/titanic-tutorial
+- https://www.kaggle.com/code/gusthema/titanic-competition-w-tensorflow-decision-forests
